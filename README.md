@@ -33,7 +33,7 @@ We have divided the project 3 parts:
 
 ![Architecture/image3.png](Architecture/image3.png)
 
-## Details by **Pipeline Team**
+## Details
 
 ![Architecture/image4.png](Architecture/image4.png)
 
@@ -67,7 +67,7 @@ There is a marginal performance degradation which might lead to slow donws as le
 3. **Why did you use a proto-application called `conduit` when you could have done with just three applications?**  
 In the hindsight, the purpose of the `conduit` application is as meagre as receiving files from the user and sending the result back to the user. If you look closely, this lets you keep your other core applications safe by being easily switchable during any kind of availability attacks.
 
-## Details by **Problem Extractor Team**
+## Details **Problem Extractor**
 
 1. Used OpenCV contours to create bounding boxes
 2. TO solve some problems in this approach
