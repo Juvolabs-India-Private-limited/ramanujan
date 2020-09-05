@@ -10,9 +10,9 @@ solution for various mathematical problems.
 
 We have divided the project 3 parts:
 
-- **Pipeline** handled by Akashdeep
-- **Open CV / Math’s Problem extraction** handled by Mahij & Mohit
-- **Solver** handled by Ankit Sinha
+- **Pipeline**
+- **Open CV / Math’s Problem extraction**
+- **Solver**
 
 ## Equations Currently (dated: 30/06/2020) working on:
 
@@ -34,8 +34,6 @@ We have divided the project 3 parts:
 ![Architecture/image3.png](Architecture/image3.png)
 
 ## Details by **Pipeline Team**
-
-### By Akashdeep Dhar:
 
 ![Architecture/image4.png](Architecture/image4.png)
 
@@ -71,16 +69,12 @@ In the hindsight, the purpose of the `conduit` application is as meagre as recei
 
 ## Details by **Problem Extractor Team**
 
-### By Mohit & Mahij:
-
 1. Used OpenCV contours to create bounding boxes
 2. TO solve some problems in this approach
 3. transfer learning
 
 ![Architecture/image5.png](Architecture/image5.png)
 
-## Model Training 
-### By Mohit, Ankit & Mahij:
 ### Installation
 
 1. Open a terminal and start a virtual environment by using `virtualenv venv`
@@ -169,19 +163,7 @@ https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
 
 ![Architecture/image6.png](Architecture/image6.png)
 
-## Details by **Problem Solver Team**
-
-### By Ankit Sinha
-
-### Currently worked on:
-- Currently we are using Python Eval function
-- Parsing the input string for value extraction
-- Currently saving the data/value in an array and flag is used for operator
-- Have the array indexing for optimal storage and generalized equations
-- Looking over library like sympy and maths for providing the solution.
-- One of more important task is to make a hierarchical structure for BODMAS or equation integrity
-
-### Have to work on
+### Future work
 - Have to Integrate Solver Engine   
 - Different type of equations solver 
 - system to send a equation to correct solver 
