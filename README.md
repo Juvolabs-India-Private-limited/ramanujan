@@ -31,11 +31,11 @@ We have divided the project 3 parts:
 
 ## Basic Flow Diagram
 
-![Architecture/image3.png](Architecture/image3.png)
+![DOCS/Architecture/image3.png](DOCS/Architecture/image3.png)
 
 ## Details
 
-![Architecture/image4.png](Architecture/image4.png)
+![DOCS/Architecture/image4.png](DOCS/Architecture/image4.png)
 
 1. Designed three pipelines and image/data transfer
 2. user2read for conveying problem image to statement detector
@@ -73,7 +73,7 @@ In the hindsight, the purpose of the `conduit` application is as meagre as recei
 2. TO solve some problems in this approach
 3. transfer learning
 
-![Architecture/image5.png](Architecture/image5.png)
+![DOCS/Architecture/image5.png](DOCS/Architecture/image5.png)
 
 ### Installation
 
@@ -161,7 +161,7 @@ tensorboard --logdir ./log
 
 https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
 
-![Architecture/image6.png](Architecture/image6.png)
+![DOCS/Architecture/image6.png](DOCS/Architecture/image6.png)
 
 ### Future work
 - Have to Integrate Solver Engine   
@@ -169,4 +169,4 @@ https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
 - system to send a equation to correct solver 
 
 
-![Architecture/image7.png](Architecture/image7.png)
+![DOCS/Architecture/image7.png](DOCS/Architecture/image7.png)
